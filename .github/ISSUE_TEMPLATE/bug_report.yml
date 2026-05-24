@@ -1,0 +1,54 @@
+name: 🐛 Bug report
+description: Something in the Rendex API or an integration isn't working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please don't include API keys, auth headers, or other secrets in this issue.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, and what went wrong?
+      placeholder: I called the screenshot endpoint with ... and got ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: I expected a 200 with a PNG.
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Request details
+      description: The endpoint, parameters, and (if any) the error response. Redact your API key.
+      render: shell
+    validations:
+      required: false
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did this happen?
+      options:
+        - REST API (api.rendex.dev)
+        - JavaScript / TypeScript SDK
+        - Python SDK
+        - MCP server
+        - n8n node
+        - Zapier
+        - Dashboard / website
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: timestamp
+    attributes:
+      label: Approximate time of the request (with timezone)
+      placeholder: 2026-05-24 14:30 UTC
+    validations:
+      required: false

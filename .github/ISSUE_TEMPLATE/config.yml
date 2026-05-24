@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📚 Documentation
+    url: https://rendex.dev/docs
+    about: Most questions are answered in the docs — check here first.
+  - name: 🟢 API status
+    url: https://rendex.dev/status
+    about: Check current API status before reporting an outage.
+  - name: ✉️ Email support
+    url: mailto:support@rendex.dev
+    about: For account, billing, or anything you'd rather not post publicly.

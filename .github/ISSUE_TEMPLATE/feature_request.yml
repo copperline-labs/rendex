@@ -1,0 +1,26 @@
+name: 💡 Feature request
+description: Suggest a capability, output format, or integration for Rendex.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the use case, not just the feature.
+      placeholder: I'm building ... and I need ... because ...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like Rendex to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds you've tried
+      description: How are you handling this today, if at all?
+    validations:
+      required: false
