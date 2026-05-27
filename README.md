@@ -1,8 +1,8 @@
 # Rendex
 
-**Screenshot & rendering API for developers and AI agents.** _Render anything. Instantly._
+**Rendering API for automation builders and AI agents.** _Render anything. Instantly._
 
-Rendex captures any webpage as a pixel-perfect screenshot or PDF, and renders raw HTML to images — with a single, fast API call. PNG, JPEG, WebP, or PDF output, running on Cloudflare's edge with zero cold starts.
+Rendex turns HTML, a URL, or Markdown into images and PDFs with a single, fast API call — built for n8n, Make, Zapier, and AI agents on MCP. PNG, JPEG, WebP, or PDF output, running on Cloudflare's edge with zero cold starts. (Yes, URL screenshots are one mode.)
 
 | | |
 |---|---|
@@ -40,3 +40,4 @@ The product is closed, but the integration tooling is open — contributions wel
 ---
 
 Rendex is a product of [Copperline Labs LLC](https://copperlinelabs.com).
+
