@@ -12,7 +12,7 @@ body:
     attributes:
       label: What happened?
       description: What did you do, and what went wrong?
-      placeholder: I called the screenshot endpoint with ... and got ...
+      placeholder: I called the API (or set up a watch) with ... and got ... instead of ...
     validations:
       required: true
   - type: textarea
@@ -36,11 +36,14 @@ body:
       label: Where did this happen?
       options:
         - REST API (api.rendex.dev)
+        - Rendex Watch (monitoring)
         - JavaScript / TypeScript SDK
         - Python SDK
         - MCP server
         - n8n node
         - Zapier
+        - Activepieces
+        - Pipedream
         - Dashboard / website
         - Other
     validations:
