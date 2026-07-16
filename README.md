@@ -29,7 +29,7 @@ npx @copperline/rendex-mcp            # MCP server (AI agents)
 
 ## Rendex Watch
 
-**Monitor any URL for changes.** Rendex Watch re-renders a page on a schedule and shows a real-Chrome **before/after visual diff** with a highlighted overlay (plus a text diff), then alerts you by email (every plan) or a signed webhook (Starter and up). It runs on the **same key and credit pool** as the rendering API, and it's available across the REST API, the JS/Python SDKs, the MCP server, and the n8n + Zapier integrations.
+**Monitor any URL for changes.** Rendex Watch re-renders a page on a schedule and detects **any change** — a real-Chrome **visual diff** with a highlighted overlay, an extracted-**text diff**, or both (the default, out of the box). Every change leads with a **crop of exactly what changed** and a plain-English **"what changed" summary**, delivered by email (every plan) or a signed webhook (Starter and up) — the webhook payload carries the summary, a cropped image URL, and the normalized change region. It runs on the **same key and credit pool** as the rendering API, and it's available across the REST API, the JS/Python SDKs, the MCP server, and the n8n + Zapier integrations.
 
 → [rendex.dev/watch](https://rendex.dev/watch) · [Watch docs](https://rendex.dev/docs/watch)
 
