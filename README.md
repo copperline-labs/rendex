@@ -9,7 +9,7 @@ Rendex turns HTML, a URL, or Markdown into images and PDFs with a single, fast A
 | 🌐 **Website** | [rendex.dev](https://rendex.dev) |
 | 📚 **Docs** | [rendex.dev/docs](https://rendex.dev/docs) |
 | 🔌 **API** | [api.rendex.dev](https://api.rendex.dev) |
-| 🆓 **Free tier** | 500 calls/month — [get a key](https://rendex.dev/login) (no credit card) |
+| 🆓 **Free tier** | 100 calls/month — [get a key](https://rendex.dev/login) (no credit card) |
 | 🟢 **Status** | [rendex.dev/status](https://rendex.dev/status) |
 
 ```bash
