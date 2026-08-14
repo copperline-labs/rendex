@@ -24,7 +24,7 @@ npx @copperline/rendex-mcp            # MCP server (AI agents)
 - **Data templating** — fill `{{placeholders}}` in HTML/Markdown from a JSON object (invoices, reports, certificates)
 - **Hosted og:image links** — a signed URL that renders once and caches, for `<meta og:image>`
 - **Content extraction** — turn any URL into clean Markdown, JSON, or article HTML
-- **Batch** up to 500 URLs per request, async with signed webhooks
+- **Batch** up to 500 URLs per request, async with signed webhooks (Starter+)
 - **Device presets, full-page capture, dark mode, geo-targeting** (geo on Pro and up)
 
 ## Rendex Watch
